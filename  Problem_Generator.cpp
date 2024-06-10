@@ -8,7 +8,7 @@
 //     while (t--)
 //     {
 //         cin >> n >> m >> s;
-//         for
+//         for(int i =0;i<)
 //     }
 // }
 
