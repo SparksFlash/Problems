@@ -19,7 +19,7 @@ int main()
             else
                 i++, j++;
 
-            cout << i << " " << j << "\n";
+            // cout << i << " " << j << "\n";
         }
         cout << j - i << '\n';
     }
