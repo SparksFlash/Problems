@@ -18,6 +18,7 @@ int main()
         if (a[i] % 2 == 1)
         {
             minimum_odd_number = min(minimum_odd_number, a[i]);
+            // cout << minimum_odd_number << ' ';
         }
     }
 
@@ -30,3 +31,5 @@ int main()
         cout << sum - minimum_odd_number << '\n';
     }
 }
+
+// odd - odd = even
