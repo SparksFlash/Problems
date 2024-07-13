@@ -10,7 +10,7 @@ int main()
         cin >> a[i];
     }
 
-    long long sum;
+    long long sum = 0; // we have to initialize it to zero if the compiler is c++17 , if c++20 then no need
     int minimum_odd_number = 1e9 + 9;
     for (int i = 0; i < n; i++)
     {
