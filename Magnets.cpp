@@ -4,7 +4,7 @@ int main()
 {
     int n;
     cin >> n;
-    string s1, s2, s3;
+    string s1, s2;
     int cnt = 0;
     while (n--)
     {
