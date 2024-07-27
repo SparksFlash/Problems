@@ -1,3 +1,4 @@
+// 1996A - DIV 3
 #include <bits/stdc++.h>
 using namespace std;
 int main()
