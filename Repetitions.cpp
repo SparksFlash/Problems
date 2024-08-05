@@ -3,19 +3,20 @@ using namespace std;
 int main()
 {
     string s;
-    int cnt = 1;
+    int cnt = 1, ans = 1;
     cin >> s;
-    for (int i = 0; s[i] != '\0'; i++)
+    for (int i = 1; i < s.size(); i++)
     {
-        if (s[i] == s[i + 1])
+        if (s[i] == s[i - 1])
         {
             cnt++;
-            if (s[i] != s[i + 1])
-            {
-                break;
-                cnt == 0;
-            }
         }
+        else
+        {
+            ans = max(ans, cnt);
+            cnt = 1;
+        }
+        ans = max(ans, cnt);
     }
-    cout << cnt << '\n';
+    cout << ans << '\n';
 }
