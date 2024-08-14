@@ -7,7 +7,13 @@ int main()
     cin >> t;
     while (t--)
     {
-        int a1, a2, b1, b2;
-        cin >> a1 >> a2 >> b1 >> b2;
+        int ans = 0;
+        int a, b, c, d;
+        cin >> a >> b >> c >> d;
+        if (a >= c && b > d || a > c && b >= d)
+            ans++;
+        if (a >= d && b > c || a > d && b >= c)
+            ans++;
+        cout << ans * 2 << endl;
     }
 }
