@@ -1,4 +1,5 @@
 // Div-4 C
+// solved
 #include <bits/stdc++.h>
 using namespace std;
 int main()
