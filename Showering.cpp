@@ -1,6 +1,7 @@
 // Div-4 C
 // solved
 // Code Expired
+// Understood
 #include <bits/stdc++.h>
 using namespace std;
 int main()
