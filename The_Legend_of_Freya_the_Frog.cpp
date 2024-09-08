@@ -5,4 +5,6 @@ int main()
 {
     int n;
     cin >> n;
+    int x = x;
+    int y = y;
 }
