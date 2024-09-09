@@ -7,4 +7,5 @@ int main()
     cin >> n;
     int x = x;
     int y = y;
+    return 0;
 }
