@@ -8,6 +8,6 @@ int main()
     while (t--)
     {
         cin >> x >> y >> k;
-        cout << max((x + k - 1) / k * 2 - 1, (y + k - 1) / k * 2) << '\n';
+        cout << max((x + k - 1) / k * 2 - 1, (y + k - 1) / k * 2) << '\n'; // ceil
     }
 }
