@@ -7,6 +7,6 @@ int main()
     while (t--)
     {
         cin >> a >> b;
-        cout << (b - (a % b)) << '\n';
+        cout << (b - (a % b)) % b << '\n';
     }
 }
