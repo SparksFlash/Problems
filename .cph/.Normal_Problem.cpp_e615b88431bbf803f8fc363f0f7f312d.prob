@@ -1,0 +1,1 @@
+{"name":"Local: Normal_Problem","url":"/home/sourav/CPP/Problems/Normal_Problem.cpp","tests":[{"id":1734632608872,"input":"5\nqwq\nppppp\npppwwwqqq\nwqpqwpqwwqp\npqpqpqpq","output":"pwp\nqqqqq\npppwwwqqq\nqpwwpqwpqpw\npqpqpqpq"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/CPP/Problems/Normal_Problem.cpp","group":"local","local":true}
