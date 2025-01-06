@@ -10,4 +10,5 @@ int main()
         cout << s[i] << "+";
     }
     cout << s[s.length() - 1];
+    return 0;
 }
