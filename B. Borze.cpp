@@ -9,7 +9,7 @@ int main()
     {
         if (s[i] == '.')
             cout << '0';
-        if (s[i] == '-')
+        if (s[i] == '-' && s[i] == '.')
         {
             cnt++;
         }
