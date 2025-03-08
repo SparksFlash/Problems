@@ -16,7 +16,7 @@ int main()
             cin >> a[i];
         }
 
-        for (int i = 1; i <= 2 * n; i ++)
+        for (int i = 1; i <= 2 * n; i++)
         {
             if (a[i] % 2 == 0)
                 e++;
