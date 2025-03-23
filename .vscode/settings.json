@@ -57,6 +57,21 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "iostream": "cpp"
+    "*.embeddedhtml": "html",
+    "iostream": "cpp",
+    "string": "cpp",
+    "format": "cpp",
+    "deque": "cpp",
+    "vector": "cpp",
+    "*.inc": "cpp",
+    "bitset": "cpp",
+    "array": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stacktrace": "cpp",
+    "regex": "cpp",
+    "valarray": "cpp"
   }
 }
