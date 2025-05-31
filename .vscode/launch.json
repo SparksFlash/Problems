@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/sourav/Documents/CPP/Problems",
-      "program": "/home/sourav/Documents/CPP/Problems/build/Debug/outDebug",
+      "cwd": "/home/sourav/Documents/CPP/Problems/5.1 Practice(STL)",
+      "program": "/home/sourav/Documents/CPP/Problems/5.1 Practice(STL)/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -2,20 +2,23 @@
 using namespace std;
 int main()
 {
-    int n, x, a, b;
-    cin >> n >> x >> a >> b;
-    int val;
-    vector<int> v;
+    int n;
+    cin >> n;
+    vector<int> v(n + 1);
     for (int i = 1; i <= n; i++)
     {
-        cin >> val;
-        v.push_back(val);
+        cin >> v[i];
     }
-
-    for (int i = 1; i <= v.size(); i++)
+    int x;
+    cin >> x;
+    v.erase(v.begin() + x);
+    int a, b;
+    cin >> a >> b;
+    v.erase(v.begin() + a, v.begin() + b);
+    cout << (int)v.size() - 1 << '\n';
+    for (int i = 1; i < v.size(); i++)
     {
-        v.erase(v.begin() + 1, v.end() - 2);
-        cout << v.size() << '\n';
         cout << v[i] << ' ';
     }
+    cout << '\n';
 }
