@@ -1,23 +1,30 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
+int main()
+{
     int n;
     cin >> n;
-    map<string,int>m;
-    while(n--){
+    map<string, int> m;
+    while (n--)
+    {
         int type;
         string x;
         cin >> type >> x;
 
-        if(type == 1){
-            int y;cin >> y;
+        if (type == 1)
+        {
+            int y;
+            cin >> y;
             m[x] += y;
         }
-        else if(type == 2){
+        else if (type == 2)
+        {
             m[x] = 0;
         }
-        else{
+        else
+        {
             cout << m[x] << '\n';
         }
+        return 0;
     }
 }
