@@ -1,0 +1,1 @@
+{"name":"Local: 23","url":"/home/sourav/Documents/CPP/Problems/23.02.25.cpp","tests":[{"id":1742750436952,"input":"5\n3\nABA\n11\nDDBBCCCBBEZ\n7\nFFGZZZY\n1\nZ\n2\nAB","output":"NO\nNO\nYES\nYES\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/Documents/CPP/Problems/23.02.25.cpp","group":"local","local":true}

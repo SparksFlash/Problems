@@ -1,0 +1,1 @@
+{"name":"Local: Vector-Erase","url":"/home/sourav/Documents/CPP/Problems/5.1 Practice(STL)/Vector-Erase.cpp","tests":[{"id":1748622931645,"input":"6\n1 4 6 2 8 9\n2\n2 4","output":"3\n1 8 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/Documents/CPP/Problems/5.1 Practice(STL)/Vector-Erase.cpp","group":"local","local":true}
