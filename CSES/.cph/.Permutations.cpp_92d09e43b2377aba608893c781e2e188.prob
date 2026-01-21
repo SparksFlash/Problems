@@ -1,0 +1,1 @@
+{"name":"Local: Permutations","url":"/home/sourav/Documents/Problems/CSES/Permutations.cpp","tests":[{"id":1769003086697,"input":"5","output":"2 4 1 3 5"},{"id":1769003760253,"input":"2","output":"NO SOLUTION"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/Documents/Problems/CSES/Permutations.cpp","group":"local","local":true}
