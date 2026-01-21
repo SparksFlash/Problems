@@ -5,19 +5,27 @@ signed main()
 {
     int n;
     cin >> n;
-    int a[n];
+    vector<int> a(n, 0);
     int even = 2;
-    for (int i = 0; i < floor(n / 2); i++)
+    if (n == 3 || n == 2)
     {
-        a[i] += even;
-        even += 2;
+        cout << "NO SOLUTION\n";
     }
-
-    int odd = 1;
-    for (int i = ((n / 2) + 1); i < n; i++)
+    else
     {
-        a[i] += odd;
-        odd += 2;
-        cout << a[i];
+        for (int i = 0; i < floor(n / 2); i++)
+        {
+            a[i] += even;
+            even += 2;
+            cout << a[i] << ' ';
+        }
+
+        int odd = 1;
+        for (int i = ((n / 2)); i < n; i++)
+        {
+            a[i] += odd;
+            odd += 2;
+            cout << a[i] << ' ';
+        }
     }
 }
