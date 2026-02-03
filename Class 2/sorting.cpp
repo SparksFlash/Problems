@@ -9,7 +9,7 @@ int main(){
     }
 
     for(int i=0; i<n; i++){
-        for(int j=1; j<n-1; j++){
+        for(int j=i+1; j<n; j++){
             if(a[i] > a[j]){
                 int temp = a[i];
                 a[i] = a[j];
