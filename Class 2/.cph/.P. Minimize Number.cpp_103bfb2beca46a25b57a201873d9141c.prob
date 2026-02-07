@@ -1,0 +1,1 @@
+{"name":"Local: P","url":"/home/sourav/Documents/Problems/Class 2/P. Minimize Number.cpp","tests":[{"id":1770398834404,"input":"3\n8 12 40","output":"2"},{"id":1770398849931,"input":"4\n5 6 8 10","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/Documents/Problems/Class 2/P. Minimize Number.cpp","group":"local","local":true}
