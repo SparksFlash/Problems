@@ -1,0 +1,1 @@
+{"name":"Local: Q","url":"/home/sourav/Documents/Problems/Class 2/Q. Count Subarrays.cpp","tests":[{"id":1770490369167,"input":"2\n5\n1 4 2 3 5\n1\n5","output":"9\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/Documents/Problems/Class 2/Q. Count Subarrays.cpp","group":"local","local":true}
