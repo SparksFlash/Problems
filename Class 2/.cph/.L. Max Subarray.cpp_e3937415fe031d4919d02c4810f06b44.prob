@@ -1,0 +1,1 @@
+{"name":"Local: L","url":"/home/sourav/Documents/Problems/Class 2/L. Max Subarray.cpp","tests":[{"id":1770455479323,"input":"2\n4\n1 6 3 7\n3\n3 1 2","output":"1 6 3 7 6 6 7 6 7 7\n3 3 3 1 2 2 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sourav/Documents/Problems/Class 2/L. Max Subarray.cpp","group":"local","local":true}
